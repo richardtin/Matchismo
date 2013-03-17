@@ -15,6 +15,11 @@
 @property (nonatomic, getter=isFaceUp) BOOL faceUp;
 @property (nonatomic, getter=isUnplayable) BOOL unplayable;
 
-- (int)match:(NSArray *)card;
+// return 0 if the otherCards do not match the receiver
+// otherwise return an integer representing the quality of the match
+// 1 should be the simplest, easiest match
+// high number should reflect  how much more difficult the match was
+
+- (int)match:(NSArray *)otherCards;
 
 @end

@@ -39,6 +39,10 @@
     _unplayable = unplayable;
 }
 
+// return 0 if none of the otherCards'content is exactly the same
+// return 1 otherwise
+// should probably return more than 1 if multiple cards match
+
 - (int)match:(NSArray *)otherCards {
     int score = 0;
 
