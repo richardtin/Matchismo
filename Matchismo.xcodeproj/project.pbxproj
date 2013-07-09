@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D30AD468178C25E40024B998 /* spade.png in Resources */ = {isa = PBXBuildFile; fileRef = D30AD467178C25E40024B998 /* spade.png */; };
+		D30AD46B178C27940024B998 /* GameResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D30AD46A178C27940024B998 /* GameResultViewController.m */; };
+		D30AD46E178C325E0024B998 /* GameResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D30AD46D178C325E0024B998 /* GameResult.m */; };
 		D34CDA9716F478FE0005C8AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34CDA9616F478FE0005C8AC /* UIKit.framework */; };
 		D34CDA9916F478FE0005C8AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34CDA9816F478FE0005C8AC /* Foundation.framework */; };
 		D34CDA9B16F478FE0005C8AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34CDA9A16F478FE0005C8AC /* CoreGraphics.framework */; };
@@ -26,6 +29,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D30AD467178C25E40024B998 /* spade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spade.png; sourceTree = "<group>"; };
+		D30AD469178C27940024B998 /* GameResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameResultViewController.h; sourceTree = "<group>"; };
+		D30AD46A178C27940024B998 /* GameResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameResultViewController.m; sourceTree = "<group>"; };
+		D30AD46C178C325E0024B998 /* GameResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameResult.h; sourceTree = "<group>"; };
+		D30AD46D178C325E0024B998 /* GameResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameResult.m; sourceTree = "<group>"; };
 		D34CDA9316F478FE0005C8AC /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D34CDA9616F478FE0005C8AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D34CDA9816F478FE0005C8AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -102,6 +110,10 @@
 				D34CDAAE16F478FF0005C8AC /* MainStoryboard.storyboard */,
 				D34CDAB116F478FF0005C8AC /* CardGameViewController.h */,
 				D34CDAB216F478FF0005C8AC /* CardGameViewController.m */,
+				D30AD46C178C325E0024B998 /* GameResult.h */,
+				D30AD46D178C325E0024B998 /* GameResult.m */,
+				D30AD469178C27940024B998 /* GameResultViewController.h */,
+				D30AD46A178C27940024B998 /* GameResultViewController.m */,
 				D34CDA9D16F478FE0005C8AC /* Supporting Files */,
 			);
 			path = Matchismo;
@@ -110,6 +122,7 @@
 		D34CDA9D16F478FE0005C8AC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D30AD467178C25E40024B998 /* spade.png */,
 				D34CDAA516F478FF0005C8AC /* CardGameAppDelegate.h */,
 				D34CDAA616F478FF0005C8AC /* CardGameAppDelegate.m */,
 				D34CDA9E16F478FE0005C8AC /* Matchismo-Info.plist */,
@@ -197,6 +210,7 @@
 				D34CDAAB16F478FF0005C8AC /* Default@2x.png in Resources */,
 				D34CDAAD16F478FF0005C8AC /* Default-568h@2x.png in Resources */,
 				D34CDAB016F478FF0005C8AC /* MainStoryboard.storyboard in Resources */,
+				D30AD468178C25E40024B998 /* spade.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +229,8 @@
 				D34CDAC216F4A5210005C8AC /* PlayingCard.m in Sources */,
 				D34CDAC516F4AE7C0005C8AC /* PlayingCardDeck.m in Sources */,
 				D34CDAC816F4DF6F0005C8AC /* CardMatchingGame.m in Sources */,
+				D30AD46B178C27940024B998 /* GameResultViewController.m in Sources */,
+				D30AD46E178C325E0024B998 /* GameResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
